@@ -64,7 +64,4 @@ The dataset contains sales transactions from three different branches of Walmart
 2. Run the SQL code 
 
 ## Contributors
-- [Prajwal Ganvir]
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+- #Prajwal Ganvir
