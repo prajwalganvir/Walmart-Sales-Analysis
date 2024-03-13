@@ -106,4 +106,4 @@ CREATE TABLE IF NOT EXISTS sales_walmart(
 
 
 ## Contributors
-- #Prajwal Ganvir
+- Prajwal Ganvir
