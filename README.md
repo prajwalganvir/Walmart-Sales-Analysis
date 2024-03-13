@@ -61,7 +61,49 @@ The dataset contains sales transactions from three different branches of Walmart
 
 ## Instructions
 1. Clone the repository.
-2. Run the SQL code 
+2. Run the SQL code
+## Codes
+
+
+## Running Tests
+
+ check the WALMART SALES ANALYSIS.sql file
+
+```bash
+CREATE DATABASE IF NOT EXISTS walmartSales;
+
+```
+
+```bash
+use walmartSales;
+```
+
+
+```bash
+
+CREATE TABLE IF NOT EXISTS sales_walmart(
+  invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
+  branch VARCHAR(5) NOT NULL,
+  city VARCHAR(30) NOT NULL,
+  customer_type VARCHAR(30) NOT NULL,
+  gender VARCHAR(30) NOT NULL,
+  product_line VARCHAR(100) NOT NULL,
+  unit_price DECIMAL(10,2) NOT NULL,
+  quantity INT NOT NULL,
+  tax_pct FLOAT NOT NULL,
+  total DECIMAL(12, 4) NOT NULL,
+  date DATETIME NOT NULL,
+  time TIME NOT NULL,
+  payment VARCHAR(15) NOT NULL,
+  cogs DECIMAL(10,2) NOT NULL,
+  gross_margin_pct FLOAT,
+  gross_income DECIMAL(12, 4),
+  rating FLOAT
+);
+
+```
+
+
 
 ## Contributors
 - #Prajwal Ganvir
